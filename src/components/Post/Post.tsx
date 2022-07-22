@@ -28,6 +28,8 @@ const [posting, setPosting] = useState<Posting>()
                         <span>{posting?.title}</span>
                         <h3>Post:</h3>
                         <span>{posting?.body}</span>
+                        <h3>Id:</h3>
+                        <span>{posting?.userId}</span>
                     </ul>
                 </>
                 
